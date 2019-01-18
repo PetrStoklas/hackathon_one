@@ -6,7 +6,7 @@
  */
 
 // custom variables
-@import "custom-bootstrap-variables"; 
+@import "common/custom-bootstrap-variables"; 
 
 // Bootstrap styles. Comment out those you do not need
 @import "./node_modules/bootstrap/scss/functions";
@@ -46,4 +46,4 @@
 @import "./node_modules/bootstrap/scss/print";
 
 // own styles (feel free to add more)
-@import "base";
+@import "common/base";
