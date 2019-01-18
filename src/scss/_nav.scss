@@ -33,7 +33,7 @@ a:active {
 footer {
     height: 35vh;
     background: $footer;
-    padding-bottom: 80px;
+    padding-top: 80px;
 
     h5 {
         color: #fff;
@@ -44,7 +44,3 @@ footer {
     
 }
 
-@keyframes nav {
-    from {top: 0px;}
-    to {top: 200px;}
-}
