@@ -1,3 +1,7 @@
+@import "main";
+
+
+
 span {
     padding: 10px 7px;
     h2 {
@@ -8,6 +12,7 @@ span {
 }
 
 p {
+    font-family: $secondary;
     i {
         font-size: 13px;
     }
