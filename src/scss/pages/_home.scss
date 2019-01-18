@@ -1,7 +1,36 @@
+
+@import '../common/base';
+
+
+h1 {
+    font-family: $main;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.container h2 {
+    font-family: $main;
+    font-family: 2.5em!important;
+}
+
 .navbar img {
     width: 100px;    
 }
 
 .jumbotron {
-    background: none;
+    background: url('/img/counter.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+.map {
+    height: 70vh;
+    background: url('/img/map.png');
+    position: relative;
+    bottom: -80px;
+}
+
+footer {
+    height: 30vh;
+    background: $footer
 }
