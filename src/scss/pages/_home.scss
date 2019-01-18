@@ -6,9 +6,16 @@ h1 {
     font-family: $main;
     text-transform: uppercase;
     letter-spacing: .05em;
-    // text-shadow: 1px 0px 0px rgba(150, 150, 150, 1);
 }
 
+
+.gen-info p {
+    font-family: $secondary;
+    
+    .details {
+        text-transform: capitalize;
+    }
+}
 .container h2 {
     font-family: $main;
     font-family: 2.5em!important;
