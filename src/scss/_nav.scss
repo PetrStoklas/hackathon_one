@@ -19,3 +19,17 @@ a:active {
     color: red;
     
 }
+
+footer {
+    height: 35vh;
+    background: $footer;
+    padding-bottom: 80px;
+
+    h5 {
+        color: #fff;
+        font-family: $secondary;
+        font-size: .5em;
+    }
+
+    
+}
