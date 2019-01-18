@@ -14,11 +14,13 @@ p {
 }
 
 .karta {
-    transition: box-shadow .3s, padding .3s;
+    transition: box-shadow .3s, padding .3s, filter 0.3s;
+    filter: opacity(0.85);
 }
 
 .karta:hover { 
     box-shadow: -1px 0px 56px -6px rgba(0,0,0,0.27);
+    filter: opacity(1);
     // padding: 2px;
     
 }
