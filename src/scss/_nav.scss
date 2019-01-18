@@ -1,4 +1,12 @@
+@import './common/base';
+
 nav {
+
+    .nav-link {
+        @include mobile {
+            padding: .2em!important;
+        }
+    }
 
     a {
         font-family: $secondary;
@@ -9,4 +17,5 @@ nav {
 
 a:active {
     color: red;
+    
 }

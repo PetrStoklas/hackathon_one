@@ -32,5 +32,13 @@ h1 {
 
 footer {
     height: 30vh;
-    background: $footer
+    background: $footer;
+
+    h5 {
+        color: #fff;
+        font-family: $secondary;
+        font-size: .8em;
+    }
+
+    
 }
