@@ -1,5 +1,13 @@
 @import './common/base';
 
+// common styles 
+
+h1 {
+    font-family: $main;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
 nav {
 
     .nav-link {
@@ -14,6 +22,8 @@ nav {
     }
 
 }
+
+
 
 a:active {
     color: red;
@@ -32,4 +42,9 @@ footer {
     }
 
     
+}
+
+@keyframes nav {
+    from {top: 0px;}
+    to {top: 200px;}
 }
