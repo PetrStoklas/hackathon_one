@@ -6,9 +6,11 @@ h1 {
     font-family: $main;
     text-transform: uppercase;
     letter-spacing: .05em;
+    color: black;
 }
 
 nav {
+    
 
     .nav-link {
         @include mobile {
@@ -19,6 +21,16 @@ nav {
     a {
         font-family: $secondary;
         color: $nav_Links;
+        margin-right: 0!important;
+    }
+
+    img {
+        text-align: center;
+        width: 100px;
+        @include tablet {
+            display: block;
+            margin: auto;
+        }
     }
 
 }
@@ -26,21 +38,21 @@ nav {
 
 
 a:active {
-    color: red;
+    // color: red;
     
 }
 
-footer {
-    height: 35vh;
-    background: $footer;
-    padding-top: 80px;
+// footer {
+//     height: 35vh;
+//     background: $footer;
+//     padding-top: 80px;
 
-    h5 {
-        color: #fff;
-        font-family: $secondary;
-        font-size: .8em;
-    }
+//     h5 {
+//         color: #fff;
+//         font-family: $secondary;
+//         font-size: .8em;
+//     }
 
     
-}
+// }
 

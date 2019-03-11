@@ -1,6 +1,11 @@
 
 @import '../common/base';
 
+body {
+    height: 100%;
+    padding-bottom: 0px;
+    margin: 0;
+}
 
 h1 {
     font-family: $main;
@@ -21,12 +26,8 @@ h1 {
     font-family: 2.5em!important;
 }
 
-.navbar img {
-    width: 100px;    
-}
-
 .jumbotron {
-    background: url('/img/counter.jpg');
+    background: url('../img/counter.jpg');
     background-size: cover;
     height: 80vh;
 }
@@ -35,14 +36,18 @@ h1 {
     margin-bottom: -40px;
 }
 
-.map {
-    height: 50vh;
-    background: url('/img/map.png');
-    position: relative;
-    bottom: -100px;
-}
+// .map {
+//     height: 50vh;
+//     background: url('/img/map.png');
+//     position: relative;
+//     bottom: -100px;
+// }
 
 .map-web {
-    position: relative;
-    bottom: -120px;
+    // margin-top: 3em;
+    @include tablet {
+        position: relative;
+        bottom: -5rem;
+        z-index: 2;
+    }
 }

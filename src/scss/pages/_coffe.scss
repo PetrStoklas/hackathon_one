@@ -1,6 +1,10 @@
 @import "../common/base";
 
-
+body {
+    // padding-bottom: 200px;
+    height: 100%;
+    margin: 0;
+}
 
 span {
     padding: 10px 7px;
@@ -28,4 +32,14 @@ p {
     filter: opacity(1);
     // padding: 2px;
     
+}
+
+.hlavni {   
+    @include tablet {
+        position: relative;
+        bottom: -3rem;
+        z-index: 2;
+    }
+
+    // margin-bottom: 30vh;
 }

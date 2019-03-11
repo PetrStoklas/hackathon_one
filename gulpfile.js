@@ -26,7 +26,7 @@ function assetsPublish(done) {
 // publish HTML files
 function htmlPublish(done) {
     return gulp.src('src/assets/**/*.html')
-      .pipe(htmlmin({ collapseWhitespace: true }))
+      // .pipe(htmlmin({ collapseWhitespace: true }))
       .pipe(gulp.dest('public'))
       .pipe(livereload());
 }

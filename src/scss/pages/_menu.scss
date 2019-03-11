@@ -1,4 +1,13 @@
+body {
+    padding-bottom: 0px;
+}
+
 .bottom-img {
-    position: relative;
-    bottom: -40px;
+    // margin-top: 12vh;
+    @include tablet {
+        position: relative;
+        bottom: -3rem;
+        z-index: 2;
+    }
+    margin-bottom: 5%;
 }

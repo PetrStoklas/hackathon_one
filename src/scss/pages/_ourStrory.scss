@@ -1,3 +1,16 @@
+@import '../common/base';
+
+body {
+    margin: 0;
+}
+
 .main {
-    // height: 30vh;
+    @include tablet {
+        position: relative;
+        bottom: -3rem;
+        z-index: 2;
+    }
+
+    margin: 5% auto;
+
 }
